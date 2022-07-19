@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1370px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  font-weight: 700px;
+}
+
+a {
+  text-decoration: none;
+}
+.header-list {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+.header-items a {
+  color: black;
+  list-style: none;
+  padding-right: 20px;
+}
+.header-items {
+  list-style: none;
+}
+
+.search {
+  padding: auto;
+}
+
+/* countries */
+.countries {
+  display: flex;
+  align-items: center;
+  background-color: #dddddd;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.regions {
+  background-color: #17206a;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.list {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 12px;
+  opacity: 0.8;
+}
+.line {
+  border: 1px solid #585858;
+  height: 12px;
+  margin: 8px;
+}
+a {
+  color: #000;
+}
+/* NEWS */
+.news {
+  display: flex;
+  margin: 0px;
+}
+.news-left {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+.top-news {
+  height: 333px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.top-news-right {
+  background-color: beige;
+  padding: 25px;
+  width: 459px;
+}
+.middle-news {
+  display: flex;
+}
+.middle-list {
+  display: flex;
+  flex-direction: column;
+}
+.maddle-item {
+  display: flex;
+  margin-bottom: 30px;
+  font-size: 14px;
+  height: 113px;
+  width: 520px;
+}
+.list-about {
+  margin-left: 10px;
+  width: 310px;
+  border-bottom: 1px solid #8f8f8f;
+}
+.data {
+  color: #8f8f8f;
+}
+
+/* BOTTOM_NEWS */
+.bottom-news {
+  display: flex;
+}
+.bottom-list {
+  width: 326px;
+  padding-right: 20px;
+}
+
+/* NEWS_RIGHT */
+.news-right {
+  display: flex;
+  flex: 1.6;
+  flex-direction: column;
+}
+.bottom-heading {
+  text-align: center;
+  margin: 0 0 20px;
+}
+.right-head {
+  margin-bottom: 18px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.list-title {
+  border-bottom: 1px solid #8f8f8f;
+  margin-bottom: 18px;
+  padding-bottom: 16px;
+}
+.title_end {
+  margin-bottom: 100px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  width: 327px;
+  height: 60px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #f0f0f0;
+  padding-left: 25px;
+  font-size: 14px;
+  color: #000;
+  border-left: 2px solid #2246c5;
+}
+
+.current-news {
+  display: flex;
+}
+
+.current-letf {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+.left-heading {
+  width: 675px;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 20px;
+  line-height: 26px;
+}
+.left-desc {
+  width: 675px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #000000;
+  display: block;
+}
+
+.current-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-top {
+  display: flex;
+}
+.right-bottom {
+  display: flex;
+}
+.current-item {
+  padding: 0 10px;
+}
+.title {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(200, 200, 200);
+  padding: 10px 20px;
+}
+.title h3 {
+  font-size: 18px;
+}
+.title a {
+  color: #2246c5;
+  font-size: 18px;
+}
+.interview {
+  background-color: rgb(200, 200, 200);
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+.interview-item {
+  margin-left: 20px;
+  width: 306px;
+  background-color: #f0f0f0;
+}
+.first {
+  margin-left: 0px;
+}
+.interview-item img {
+  box-shadow: 10px 10px rgb(0, 0, 124);
+  margin-left: -25px;
+  margin-top: -25px;
+}
+.interview-item h3 {
+  padding: 20px;
+  margin: 0;
+}
+
+.queshion {
+  display: flex;
+  margin: 30px;
+  padding: 0 15px;
+}
+.queshion-left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-top: 30px;
+  width: 658px;
+  padding-right: 40px;
+  background-color: #f0f0f0;
+}
+.queshion-left img {
+  box-shadow: 15px 15px white;
+  margin-top: -20px;
+}
+.queshion-left h4{
+    color: #2246c5;
+    padding: 20px;
+}
+.quesh-right {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+.quesh-right-item {
+  display: flex;
+  padding: 10px;
+}
+.quesh-right-item h4{
+    width: 445px;
+    padding: 8px 20px 0;
+}
